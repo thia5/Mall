@@ -1,18 +1,20 @@
 <template>
- <div>
-   <img alt="Vue logo" src="./assets/logo.png">
-  <h2>hhhhhh</h2>
- </div>
+  <div id="app">
+    <main-tab-bar></main-tab-bar>
+  </div>
 </template>
 
 <script>
+import MainTabBar from './components/content/mainTabbar/MainTabBar.vue'
 
 export default {
   name: 'App',
   components: {
+    MainTabBar
   }
 }
 </script>
 
 <style>
+@import "./assets/css/base.css";
 </style>
